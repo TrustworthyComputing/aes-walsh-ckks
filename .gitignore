@@ -1,0 +1,49 @@
+# Build artifacts
+/build/
+/bench/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+.vscode/
+.cache/
+__pycache__/
+.venv/
+*.sage.py
+
+# Executables
+*.out
+*.exe
+*.out.*
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+
+
+# VS Code and IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Documents
+*.pdf
+paper/
+/overleaf/
+
+*.codex
+*.agents
+
+# External repositories
+/repo/
