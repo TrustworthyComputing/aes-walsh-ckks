@@ -1,9 +1,27 @@
 # Walsh LUT Evaluation on Lazy Bits for CKKS AES Transciphering
 
 This is the implementation repository for the paper
-["Walsh LUT Evaluation on Lazy Bits for CKKS AES Transciphering"](https://eprint.iacr.org/2026/1385).
+["Walsh LUT Evaluation on Lazy Bits for CKKS AES Transciphering"](https://udel.edu/~tsoutsos/ISC2026-aes-walsh-ckks.pdf),
+which will appear at the 29th International Conference on Information Security
+(ISC 2026).
 The benchmark driver covers AESWalsh15 and the full and sparse AESXBoot15 and
 secure AESXBoot14 baselines in Tables 1 and 2 of the paper.
+
+> [!WARNING]
+> This repository contains research code that is not production-ready. It
+> should not be used in production systems or to protect sensitive data.
+
+## How to cite this work
+
+```bibtex
+@inproceedings{shokri2026walsh,
+  title        = {Walsh LUT Evaluation on Lazy Bits for CKKS AES Transciphering},
+  author       = {Shokri, Rostin and Tsoutsos, Nektarios Georgios},
+  booktitle    = {International Conference on Information Security},
+  year         = {2026},
+  organization = {Springer}
+}
+```
 
 ## Requirements
 
@@ -66,3 +84,15 @@ and prints a `RESULT` line containing latency, maximum error, average error,
 decoded mismatches, and rotation-key count. Context generation and round-key
 encryption are intentionally outside the reported evaluation time, matching
 the paper methodology.
+
+## Acknowledgments
+
+This work was supported by the National Science Foundation (Award #2239334).
+
+<p align="center">
+  <a href="https://github.com/TrustworthyComputing">
+    <img src="https://raw.githubusercontent.com/TrustworthyComputing/HELM/main/logos/twc.png" alt="Trustworthy Computing Group" width="300">
+  </a>
+  <br>
+  <strong>Trustworthy Computing Group</strong>
+</p>
